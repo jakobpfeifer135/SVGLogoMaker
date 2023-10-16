@@ -1,5 +1,21 @@
 //^ TODO Provide text for a logo- SVG file
+const inquirer = require('inquirer');
+const logoPrompt = [
+    {
+        type:`input`,
+        name:`logoText`,
+        message:`enter the three characters for your logo`,
+    },
+];
 
+inquirer.prompt(logoPrompt)
+.then(answers => {
+    const logoText = answers.logoText;
+    console.log(`you entered: ${logoText}`);
+})
+.catch(error => {
+    console.log(`an error occurred: `, error);
+})
 //^ TODO prompt for 3 characters and this will be the 3 characters that are on the logo
 
 //^ TODO prompt for text color accept keyword or hexadecimal
