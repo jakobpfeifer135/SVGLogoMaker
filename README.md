@@ -26,8 +26,8 @@ about using inquirer and jest inside javascript
 
 ## Installation
 
-follow my git repo link in the html or deployed link to access the rest of my work both future and past.
-
+follow my git repo link in the html or deployed link to access the rest of my work both future and past. here is the video going along side this project!:
+https://drive.google.com/file/d/1c22GC3iAd_Tkbaj73sGBlWciEI2UyDPu/view
 
 
 ## Usage
