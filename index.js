@@ -1,7 +1,8 @@
 const inquirer = require('inquirer');
-const Circle = require(`../lib/circle.js`); // pulls the circle coding
-const Triangle = require(`../lib/triangle.js`); // pulls the triangles coding
-const Square = require(`../lib/square.js`);  // pulls the square coding
+
+const Circle = require(`./lib/circle.js`); // pulls the circle coding
+const Triangle = require(`./lib/triangle.js`); // pulls the triangles coding
+const Square = require(`./lib/square.js`);  // pulls the square coding
 const { writeFile } = require('fs').promises; // use this out of the fs provided code to write it to the page
 
 

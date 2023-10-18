@@ -1,0 +1,23 @@
+{
+  "name": "svglogomaker",
+  "version": "1.0.0",
+  "description": "- What was your motivation?\r to learn how to use node.js inquirer and jest to take in user inputs and using them to build an svg file in this instance a logo to match their given criteria.\r - Why did you build this project?\r to showcase my skills inside node and dev-dependencies",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
