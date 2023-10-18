@@ -77,7 +77,7 @@ inquirer.prompt(questions)
     }
   })
   .then((svgLogo) => {
-    return writeFile("../examples/logo.svg", svgLogo);
+    return writeFile("./examples/logo.svg", svgLogo);
   })
   .then(() => {
     console.log("generated logo.svg!");// on success paste this in the command prompt
